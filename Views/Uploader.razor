@@ -1,0 +1,29 @@
+﻿@namespace Views
+
+@if(this.Multiple)
+{
+    <p>@this.HttpImageUploaderService.Message</p>
+
+   <p class="control_label">Add Files</p>
+        <InputFile OnChange="this.HandleSelected" accept="@this.AcceptTypeList" multiple id="inputFile" class="@this.Css" />
+
+    @if(this.Images != null && this.Images.Count > 0)
+    {
+        foreach(var item in this.Images)
+        {
+            <img src="@item" style="width:100px" />
+        }
+    }
+}
+else
+{
+    <p>@this.HttpImageUploaderService.Message</p>
+
+    <p class="control_label">Add File</p>
+        <InputFile OnChange="this.HandleSelected" accept="@this.AcceptTypeList" id="inputFile" class="@this.Css" />
+
+    @if(this.ImgUrl != null)
+    {
+        <img src="@this.ImgUrl" style="width:100px" />
+    }
+}

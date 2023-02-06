@@ -1,0 +1,10 @@
+//=================================================================
+# Project: MAK.LibBlazorFileUploader
+### Software Engineer: Maurice Antonio Kelly
+### Description: A Blazor Razor Class Library wrapper for Blazor's built-in file uploader. This library provides an easy-to-use component for uploading single or multiple files; it also provides instant visual user feedback of the file(s) uploaded. The component provide Parameters for various options such as AcceptTypeList for the sccepted image types, ToImageType for the image type to convert to, Css to set own style and Multiple to switch between single or multiple file choice.
+//=================================================================
+Date: 2023-02-06
+Stop Time: 18:30
+//=================================================================
+Git Commit Message: Move to local Windows folder because of issues with macOS .DS_Store files when I deploy Apps that use this library.
+//=================================================================
