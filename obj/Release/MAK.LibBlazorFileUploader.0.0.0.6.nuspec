@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>MAK.LibBlazorFileUploader</id>
+    <version>0.0.0.6</version>
+    <authors>Maurice Antonio Kelly</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <description>A Blazor Razor Class Library wrapper for Blazor's built-in file uploader. This library provides an easy-to-use component for uploading single or multiple files; it also provides instant visual user feedback of the file(s) uploaded. The component provide Parameters for various options such as AcceptTypeList for the sccepted image types, ToImageType for the image type to convert to, Css to set own style and Multiple to switch between single or multiple file choice.</description>
+    <releaseNotes>A Blazor Razor Class Library wrapper for Blazor's built-in file uploader. This library provides an easy-to-use component for uploading single or multiple files; it also provides instant visual user feedback of the file(s) uploaded. The component provide Parameters for various options such as AcceptTypeList for the sccepted image types, ToImageType for the image type to convert to, Css to set own style and Multiple to switch between single or multiple file choice.</releaseNotes>
+    <copyright>Pragmatic Applications - Maurice Antonio Kelly @MAKMaurice</copyright>
+    <tags>A Blazor Razor Class Library wrapper for Blazor's built-in file uploader</tags>
+    <repository type="A Blazor Razor Class Library wrapper for Blazor's built-in file uploader" url="https://github.com/pragmatic-applications/MAK.LibBlazorFileUploader" commit="62bf09a5a5ead97b48ab4bca6d84384d2d88b81b" />
+    <dependencies>
+      <group targetFramework="net9.0">
+        <dependency id="Microsoft.AspNetCore.Components.Web" version="9.0.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Mac\Home\Documents\Git\MAK.LibBlazorFileUploader\bin\Release\net9.0\MAK.LibBlazorFileUploader.dll" target="lib\net9.0\MAK.LibBlazorFileUploader.dll" />
+  </files>
+</package>
